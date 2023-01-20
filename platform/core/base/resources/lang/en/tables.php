@@ -24,6 +24,7 @@ return [
     'activated' => 'activated',
     'deactivated' => 'deactivated',
     'is_featured' => 'Is featured',
+    'is_course_post' => 'Is Course Post',
     'edit' => 'Edit',
     'delete' => 'Delete',
     'restore' => 'Restore',

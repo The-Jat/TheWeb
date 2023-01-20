@@ -23,6 +23,7 @@ return new class () extends Migration {
             $table->string('icon', 60)->nullable();
             $table->tinyInteger('order')->default(0);
             $table->tinyInteger('is_featured')->default(0);
+            $table->tinyInteger('is_course_post')->default(0);
             $table->tinyInteger('is_default')->unsigned()->default(0);
             $table->timestamps();
         });
