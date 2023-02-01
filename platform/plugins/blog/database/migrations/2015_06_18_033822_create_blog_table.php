@@ -47,6 +47,7 @@ return new class () extends Migration {
             $table->integer('author_id');
             $table->string('author_type', 255)->default(addslashes(User::class));
             $table->tinyInteger('is_featured')->unsigned()->default(0);
+            $table->tinyInteger('is_course')->unsigned()->default(0);
             $table->string('image', 255)->nullable();
             $table->integer('views')->unsigned()->default(0);
             $table->string('format_type', 30)->nullable();
