@@ -25,6 +25,7 @@ return new class () extends Migration {
             $table->boolean('manage_supers')->default(0);
             $table->text('permissions')->nullable();
             $table->timestamp('last_login')->nullable();
+            $table->string('phone_number', 15)->nullable();
         });
 
         Schema::create('activations', function (Blueprint $table) {
