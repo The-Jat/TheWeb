@@ -44,11 +44,11 @@ class ThemeOptionSeeder extends BaseSeeder
             'en_US' => [
                 [
                     'key'   => 'site_title',
-                    'value' => 'UltraNews - Laravel News and Magazine Multilingual System',
+                    'value' => 'The Jaat',
                 ],
                 [
                     'key'   => 'seo_description',
-                    'value' => 'UltraNews – Laravel News and Magazine Multilingual System is a complete solution for any kind of News, Magazine, and Blog Portal. This cms Includes almost everything you need. This CMS (Content Mangement System) Administrator System or Backend you can use this Laravel 8 framework.',
+                    'value' => 'For the students, by the students.',
                 ],
                 [
                     'key'   => 'seo_og_image',
@@ -56,11 +56,11 @@ class ThemeOptionSeeder extends BaseSeeder
                 ],
                 [
                     'key'   => 'copyright',
-                    'value' => '©' . now()->format('Y') . ' UltraNews - ',
+                    'value' => '©' . now()->format('Y') . ' The JAAT - ',
                 ],
                 [
                     'key'   => 'designed_by',
-                    'value' => '| Design by AliThemes',
+                    'value' => '| Developed by JAAT',
                 ],
                 [
                     'key'   => 'favicon',
@@ -68,11 +68,11 @@ class ThemeOptionSeeder extends BaseSeeder
                 ],
                 [
                     'key'   => 'website',
-                    'value' => 'https://thesky9.com',
+                    'value' => 'www.abc.com',
                 ],
                 [
                     'key'   => 'contact_email',
-                    'value' => 'support@thesky9.com',
+                    'value' => 'support@abc.com',
                 ],
                 [
                     'key'   => 'site_description',
@@ -223,11 +223,11 @@ class ThemeOptionSeeder extends BaseSeeder
             'vi' => [
                 [
                     'key'   => 'site_title',
-                    'value' => 'UltraNews - Laravel News and Magazine Multilingual System',
+                    'value' => 'The Jaat',
                 ],
                 [
                     'key'   => 'seo_description',
-                    'value' => 'UltraNews – Laravel News and Magazine Multilingual System is a complete solution for any kind of News, Magazine, and Blog Portal. This cms Includes almost everything you need. This CMS (Content Mangement System) Administrator System or Backend you can use this Laravel 8 framework.',
+                    'value' => 'seo_description other language.',
                 ],
                 [
                     'key'   => 'seo_og_image',
@@ -235,11 +235,11 @@ class ThemeOptionSeeder extends BaseSeeder
                 ],
                 [
                     'key'   => 'copyright',
-                    'value' => '©' . now()->format('Y') . ' Thiết kế bởi AliThemes ',
+                    'value' => '©' . now()->format('Y') . ' copyright, Other Language ',
                 ],
                 [
                     'key'   => 'designed_by',
-                    'value' => '| Design by AliThemes',
+                    'value' => '| Design by The JAAT',
                 ],
                 [
                     'key'   => 'favicon',
@@ -247,11 +247,11 @@ class ThemeOptionSeeder extends BaseSeeder
                 ],
                 [
                     'key'   => 'website',
-                    'value' => 'https://thesky9.com',
+                    'value' => 'www.abc.com other language',
                 ],
                 [
                     'key'   => 'contact_email',
-                    'value' => 'support@thesky9.com',
+                    'value' => 'support@abc.com',
                 ],
                 [
                     'key'   => 'site_description',
