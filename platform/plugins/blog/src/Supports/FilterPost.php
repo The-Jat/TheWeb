@@ -30,6 +30,7 @@ class FilterPost
             'tags'               => $request['tags'] ?? null,
             'tags_exclude'       => $request['tags_exclude'] ?? null,
             'featured'           => $request['featured'] ?? null,
+            'course'             => $request['course'] ?? null,
         ];
     }
 }

@@ -5,7 +5,7 @@
             <div class="col-md-6">
                 <div class="card login-form">
                     <div class="card-body">
-                        <h4 class="text-center">{{ trans('plugins/member::dashboard.register-title') }}</h4>
+                        <h4 class="text-center">REGGG</h4>
                         <br>
                         <form method="POST" action="{{ route('public.member.register') }}">
                             @csrf
@@ -37,6 +37,17 @@
                                        name="email" value="{{ old('email') }}" required
                                        placeholder="{{ trans('plugins/member::dashboard.email') }}">
                                 @if ($errors->has('email'))
+                                    <span class="invalid-feedback">
+                                    <strong>{{ $errors->first('email') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                            <div class="form-group mb-3">
+                                <input id="phone_number" type="number"
+                                       class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}"
+                                       name="email" value="{{ old('email') }}" required
+                                       placeholder="{{ trans('plugins/member::dashboard.email') }}">
+                                @if ($errors->has('phone_number'))
                                     <span class="invalid-feedback">
                                     <strong>{{ $errors->first('email') }}</strong>
                                     </span>

@@ -114,6 +114,10 @@ if (is_plugin_active('blog')) {
                 $filters['featured'] = $params['featured'];
             }
 
+            if (isset($params['course'])) {
+                $filters['course'] = $params['course'];
+            }
+
             return app(PostInterface::class)->getFilters($filters);
         }
     }

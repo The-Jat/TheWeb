@@ -275,6 +275,10 @@ class PostRepository extends RepositoriesAbstract implements PostInterface
             $data = $data->where('is_featured', $filters['featured']);
         }
 
+        if ($filters['course'] !== null) {
+            $data = $data->where('is_course', $filters['course']);
+        }
+
         if ($filters['search'] !== null) {
             $data = $data
                 ->where(function ($query) use ($filters) {

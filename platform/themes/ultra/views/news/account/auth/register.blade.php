@@ -67,6 +67,22 @@
                                 <div class="col-lg-6 col-md-6">
                                     <div class="form-group">
                                         <div class="input-with-icon">
+                                            <input id="phone_number" type="number"
+                                                   class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}"
+                                                   name="phone_number" value="{{ old('phone number') }}" required
+                                                   placeholder="{{ __('Phone number') }}">
+                                        </div>
+                                        @if ($errors->has('email'))
+                                            <span class="d-block invalid-feedback">
+                                                <strong>{{ $errors->first('email') }}</strong>
+                                            </span>
+                                        @endif
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group">
+                                        <div class="input-with-icon">
                                             <input id="username" type="text"
                                                    class="form-control{{ $errors->has('username') ? ' is-invalid' : '' }}"
                                                    name="username" value="{{ old('username') }}" required

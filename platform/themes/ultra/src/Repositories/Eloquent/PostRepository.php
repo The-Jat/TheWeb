@@ -51,6 +51,13 @@ class PostRepository extends BasePostRepository implements PostInterface
             $this->model = $this->model->where('posts.is_featured', $filters['featured']);
         }
 
+        //Debugbar::info($filters['course']);
+        dd("course is = ");
+
+        if (!empty($filters['course'])) {
+            $this->model = $this->model->where('posts.is_course', $filters['course']);
+        }
+
         if (!empty($filters['format_type'])) {
             $this->model = $this->model->where('posts.format_type', $filters['format_type']);
         }
